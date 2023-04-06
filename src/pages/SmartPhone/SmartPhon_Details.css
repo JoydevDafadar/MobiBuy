@@ -1,0 +1,70 @@
+.Product_Details{
+    display: flex;
+    /* align-items: center; */
+    
+}
+.Product_Details .left{
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Product_Details .left img{
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.Product_Details .left button{
+    height: 3rem;
+    width: 80%;
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.Product_Details .right{
+    /* margin: 0rem 2rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.Product_Details .right h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.Product_Details .right h6{
+    font-size: 1rem;
+    font-weight: 50;
+    color: rgba(0, 0, 0, 0.363);
+}
+.Product_Details .right h5{
+    font-size: 1rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: green;
+}
+.Product_Details .right h2{
+    font-size: 1.6rem;
+    margin: .5rem 0 3rem 0;
+    /* vertical-align: middle; */
+}
+.Product_Details .right h4 span{
+    background-color: green;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.Product_Details .right h4{
+    font-weight: 500;
+    margin: 1rem 0;
+    
+}
+.Product_Details .right h3{
+    margin: 1rem 0;
+}
+.Product_Details .right .des{
+    margin: 2rem 0;
+    padding-right: 6rem;
+}

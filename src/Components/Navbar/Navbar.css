@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.Navbar .title {
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 2.5rem; 
+}
+.Navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+.Navbar ul li{
+    margin:  0 2rem;
+    font-size: 1.2rem;
+}

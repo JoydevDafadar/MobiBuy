@@ -1,0 +1,108 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+.hero .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    background-color: #0187ac;
+}
+.hero .title h2{
+    font-size: 3rem;
+    color: #b8e8f4;
+
+}
+.hero .title h1{
+    font-size: 3rem;
+    color: #fff;
+
+}
+.hero .title p{
+    padding: 2rem 0;
+    color: #ffffffb9;
+    font-weight: 10;
+
+}
+.hero img{
+    width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.pro{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px #0000004b;
+    border-radius: 1rem;
+    transition: 10ms;
+}
+.pro:Hover{
+    box-shadow: 5px 5px 20px #0000004b;
+    cursor: pointer;
+}
+.pro img{
+    height: 80%;
+    width: 90%;
+}
+
+
+
+
+
+.banner1 img{
+    width: 98.5vw;
+    cursor: pointer;
+}
+.SmartPhones{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SmartPhones .item{
+    margin: 1.5rem 2.2rem;
+    height: 20rem;
+    width: 12rem;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+    transition: .3s;
+}
+.SmartPhones .item:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.434);
+    transform: scale(1.1);
+}
+.SmartPhones .item img{
+    width: 100%;
+    height: 80%;
+}
+.SmartPhones .item h2{
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+.SmartPhones .item h3{
+    color: green;
+    font-size: 1.3rem;
+    padding: 0 5px;
+}
