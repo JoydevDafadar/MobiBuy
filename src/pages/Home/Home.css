@@ -41,10 +41,12 @@
 .product{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 1rem 2rem 1rem 2rem;
 }
 .pro{
+    margin: 0rem 2rem;
     width: 15rem;
     height: 20rem;
     display: flex;
@@ -76,6 +78,7 @@
 .SmartPhones{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .SmartPhones .item{
@@ -85,24 +88,94 @@
     /* border: 1px solid black; */
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     cursor: pointer;
     transition: .3s;
 }
 .SmartPhones .item:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.434);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.269);
     transform: scale(1.1);
 }
 .SmartPhones .item img{
+    padding: 2rem;
     width: 100%;
     height: 80%;
 }
 .SmartPhones .item h2{
-    font-size: 1rem;
+    color: black;
+    font-size: .9rem;
     padding: 5px 10px;
 }
 .SmartPhones .item h3{
     color: green;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 0 5px;
+}
+
+
+
+.banner2{
+    display: flex;
+    cursor: pointer;
+    margin: 5rem 0;
+}
+.banner2 img{
+    width: 50vw;
+    height: 30rem;
+}
+.banner2 .right{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+}
+.banner2 .right img{
+    width: 48.5vw;
+    height: 100%;
+}
+
+
+
+
+
+.brand{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.brand .brand-item img{
+    width: 20rem;
+    height: 10rem;
+}
+
+
+
+@media screen and (max-width : 540px) {
+    
+    .hero {
+        flex-direction: column;
+    }
+    .hero .title{
+        height: 40vh;
+        width: 100vw;
+    }
+    .hero img{
+        width: 100vw;
+    }
+    .pro {
+        width: 10rem;
+        height: 15rem;
+        margin: 2rem 2rem;
+    }
+
+    .banner2 img {
+        height: 16rem;
+    }
+    .banner2 .right img {
+        height: 16rem;
+    }
+    .banner2 .right {
+        height: 16rem;
+    }
+
 }

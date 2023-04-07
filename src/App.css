@@ -17,3 +17,14 @@ ul{
 .m1{
   margin: 2rem 0 ;
 }
+
+@media screen and ( max-width : 540px ){
+    
+  .p1 {
+    padding: 0 2rem 0 2rem;
+  }
+  .m1{
+    margin: 1rem 0 ;
+  }
+
+}

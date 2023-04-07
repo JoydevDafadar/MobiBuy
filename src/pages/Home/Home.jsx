@@ -4,7 +4,11 @@ import './Home.css'
 import Navbar from '../../Components/Navbar/Navbar';
 import Products from '../../Utils/Utis';
 import SmartPhones from '../../Utils/SmartPhones';
+import Accessories from "../../Utils/Accessories";
+import Footer from '../../Components/Footer/Footer';
+import Brand from '../../Utils/Brand'
 import { Link } from 'react-router-dom';
+
 
 const Home = () => {
 
@@ -50,7 +54,7 @@ const Home = () => {
             {SmartPhones.map((element, ind) => {
                 return(
                     <>
-                    <Link to={`/smartphone/${element.Id}`}>
+                    <Link to={`/smartphone/${(element.Id * 10) + 0}`}>
                         <div className="item" key={ind}>
                             <img src={element.ImgAdd} alt="" />
                             <h2>{element.Name}</h2>
@@ -61,7 +65,46 @@ const Home = () => {
                 )
             })}
         </div>
+
+        <div className="banner2">
+            <img src="./Images/left.jpg" alt="" />
+            <div className="right">
+                <img src="./Images/right1.jpg" alt="" />
+            </div>
+        </div>
         
+
+        <h1 className='m1 p1'>Tablets & Accessories</h1>
+        <hr/>
+        <div className="SmartPhones p1 m1">
+            {Accessories.map((element, ind) => {
+                return(
+                    <>
+                    <Link to={`/smartphone/${(element.Id * 10 ) + 1}`}>
+                        <div className="item" key={ind}>
+                            <img src={element.ImgAdd} alt="" />
+                            <h2>{element.Name}</h2>
+                            <h3><i className="fa-sharp fa-solid fa-indian-rupee-sign"></i>{element.price}</h3>
+                        </div>
+                    </Link>
+                    </>
+                )
+            })}
+        </div>
+
+        <h1 className='m1 p1'>Brands</h1>
+        <hr/>
+        <div className="brand p1 m1">
+        {Brand.map((ele, ind) => {
+            return(
+                <div className="brand-item" key={ind}>
+                    <img src={ele.Img} alt={ele.Name} />
+                </div>
+            );
+        })}
+        </div>
+
+        <Footer/>
 
     </>
   )

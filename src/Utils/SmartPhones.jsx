@@ -87,7 +87,6 @@ const SmartPhones = [
         "Message" : "Enjoy gaming thrills and capture your memorable moments with the Vivo T1 smartphone. This mobile phone is driven by a Snapdragon 680 processor so that you can get speeded up performance on this phone. Also, it comes with a 50 MP high-definition camera so that you can click sharp details even in low light conditions. And, thanks to the Funtouch OS 12, you can enjoy a smooth user experience.",
         "ImgAdd" : "https://rukminim1.flixcart.com/image/416/416/l2p23rk0/mobile/s/4/3/-original-imagdznhcbdfwfud.jpeg?q=70",
     }
-
 ]
 
 export default SmartPhones;

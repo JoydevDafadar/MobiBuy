@@ -68,3 +68,16 @@
     margin: 2rem 0;
     padding-right: 6rem;
 }
+
+
+
+
+@media screen and (max-width: 540px) {
+    .Product_Details {
+        flex-direction: column;
+    }
+    .Product_Details .left{
+        margin-right: 0px;
+        margin-bottom: 2rem;
+    }
+}

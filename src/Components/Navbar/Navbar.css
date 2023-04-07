@@ -15,6 +15,26 @@
     flex-direction: row;
 }
 .Navbar ul li{
+    color: black;
     margin:  0 2rem;
     font-size: 1.2rem;
+}
+.Navbar ul li a{
+    color: black;
+}
+
+
+
+
+@media screen and ( max-width: 540px ){
+    
+    .Navbar .title {
+        /* font-family: 'Rubik Pixels', cursive; */
+        font-size: 1.8rem;
+    }
+    .Navbar ul li {
+        margin: 0 .6rem;
+        font-size: 1.2rem;
+    }
+
 }
