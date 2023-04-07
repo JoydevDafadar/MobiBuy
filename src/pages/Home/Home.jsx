@@ -69,7 +69,7 @@ const Home = () => {
         <div className="banner2">
             <img src="./Images/left.jpg" alt="" />
             <div className="right">
-                <img src="./Images/right1.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi6RqtplyHphheSskh0se1QBsNmyhZPlWMkleZa1Zh3g&usqp=CAU&ec=48665701" alt="" />
             </div>
         </div>
         
