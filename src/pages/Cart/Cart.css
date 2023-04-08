@@ -1,0 +1,37 @@
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart-item img{
+    width: 4rem;
+}
+.cart-item h2{
+    width: 20rem;
+}
+.cart-item h3{
+    width: 8rem;
+}
+
+.total-buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.total-buy h2{
+    color: black;
+}
+.total-buy button{
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(238, 157, 27);
+    color: white;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+.cart-item h2{
+    font-size: 1rem;
+    font-weight: 200;
+}
